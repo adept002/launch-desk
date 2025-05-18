@@ -1,0 +1,103 @@
+.kanban-scroll {
+   overflow-x: auto;
+   scrollbar-width: none;
+   display: flex;
+   white-space: nowrap;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.kanban-row {
+  display: flex;
+  gap: 15px;
+}
+
+.kanban-column {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  height: max-content;
+}
+
+.column-header {
+  width: 350px;
+  height: 19px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+  align-items: center;
+}
+.column-header__h3{
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.column-header__span{
+  border-radius: 50px;
+  width: max-content;
+  height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  padding: 4px 7px;
+}
+.column-body {
+  overflow-y: auto;
+  height: max-content;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.section {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section strong{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.section-date{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #616161;
+}
+.section-time{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #383838;
+}
+.time-block{
+  background: #F9FAF5;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.section-li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.groups {
+  background: #fff;
+}
+
+.lessons {
+  background: #EEECDC;
+}
