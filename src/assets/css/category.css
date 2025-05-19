@@ -72,7 +72,7 @@
       line-height: 12px;
    }
 }
-@media(max-width: 320px){
+@media(max-width: 420px){
    .category{
       height: 50px;
       gap: 8px;

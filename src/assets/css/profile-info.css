@@ -103,7 +103,7 @@
       margin-top: 2px;
    }
 }
-@media(max-width: 320px){
+@media(max-width: 420px){
    .about-me{
       height: 38px;
       padding: 5px;

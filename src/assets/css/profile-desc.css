@@ -54,7 +54,7 @@
       line-height: 17px;
    }
 }
-@media(max-width: 320px){
+@media(max-width: 420px){
    .desc{
       gap: 2px;
       padding: 5px;
