@@ -23,7 +23,7 @@ body {
   width: 100%;
   padding: 20px;
   margin: 0 auto;
-}
+} 
 .app{
   display: flex;
   width: 100%;
@@ -34,3 +34,14 @@ body {
  .about-container{
   border-left: 1px solid rgb(204, 204, 204);
  }
+
+@media(max-width: 768px){
+  .container {
+    padding: 10px;
+  } 
+}
+@media(max-width: 320px){
+  .container {
+    padding: 5px;
+  } 
+}

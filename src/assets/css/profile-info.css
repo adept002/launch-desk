@@ -44,3 +44,91 @@
    line-height: 24px;
    color: #000;
 }
+
+@media(max-width: 1024px){
+   .about-me{
+      height: 50px;
+      padding: 15px;
+   }
+   .about-me h1{
+      font-size: 22px;
+      line-height: 27px;
+   }
+   .info-group img{
+      width: 100px;
+      height: 100px;
+   }
+   .info-group{
+      padding: 15px;
+   }
+   .info{
+      margin-left: 15px;
+   }
+   .info h2{
+      font-size: 20px;
+      line-height: 22px;
+   }
+   .info p{
+      font-size: 16px;
+      line-height: 17px;
+      margin-top: 3px;
+   }
+}
+@media(max-width: 768px){
+   .about-me{
+      height: 46px;
+      padding: 10px;
+   }
+   .about-me h1{
+      font-size: 20px;
+      line-height: 25px;
+   }
+   .info-group img{
+      width: 80px;
+      height: 80px;
+   }
+   .info-group{
+      padding: 10px;
+   }
+   .info{
+      margin-left: 10px;
+   }
+   .info h2{
+      font-size: 18px;
+      line-height: 20px;
+   }
+   .info p{
+      font-size: 14px;
+      line-height: 15px;
+      margin-top: 2px;
+   }
+}
+@media(max-width: 320px){
+   .about-me{
+      height: 38px;
+      padding: 5px;
+   }
+   .about-me h1{
+      font-size: 16px;
+      line-height: 16px;
+   }
+   .info-group img{
+      width: 70px;
+      height: 70px;
+   }
+   .info-group{
+      padding: 5px;
+   }
+   .info{
+      margin-left: 5px;
+   }
+   .info h2{
+      font-size: 14px;
+      line-height: 16px;
+   }
+   .info p{
+      font-size: 11px;
+      line-height: 12px;
+      margin-top: 0;
+   }
+}
