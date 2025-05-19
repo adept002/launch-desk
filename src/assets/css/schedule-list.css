@@ -1,15 +1,22 @@
 .kanban-scroll {
-   overflow-x: auto;
-   scrollbar-width: none;
-   display: flex;
-   white-space: nowrap;
-   margin-top: 20px;
-   margin-left: 20px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: block; 
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: grab;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.kanban-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .kanban-row {
   display: flex;
   gap: 15px;
+  min-width: max-content;
 }
 
 .kanban-column {
